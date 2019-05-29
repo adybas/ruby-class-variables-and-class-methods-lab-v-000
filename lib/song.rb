@@ -25,7 +25,7 @@ class Song
     @@artists.uniq
   end
 
-  def genre_count
+  def self.genre_count
     # iterate over genre array and create hash of genre and count
     genre_count = {}
     @@genres.each do |genre|
