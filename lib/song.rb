@@ -35,7 +35,7 @@ class Song
   end
 
   def self.artist_count
-    # iterate over genre array and create hash of genre and count
+    # iterate over artists array and create hash of genre and count
     artist_count = {}
     @@artists.each do |artist|
       artist_count[artist] = @@artists.count(artist)
