@@ -26,5 +26,12 @@ class Song
   end
 
   def genre_count
+    # iterate over genre array and create hash of genre and count
+    genre_count = {}
+    @@genres.each do |genre|
+      genre_count[genre] += 1 
+    end
+    genre_count
   end
+  
 end
