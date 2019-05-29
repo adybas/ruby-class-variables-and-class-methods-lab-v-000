@@ -26,7 +26,7 @@ class Song
   end
 
   def self.genre_count
-    # iterate over genre array and create hash of genre and count
+    # iterate over genres array and create hash of genre and count
     genre_count = {}
     @@genres.each do |genre|
       genre_count[genre] = @@genres.count(genre)
